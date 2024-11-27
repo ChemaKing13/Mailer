@@ -1,0 +1,28 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js", 
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChemaKing13/Mailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChemaKing13/Mailer/issues"
+  },
+  "homepage": "https://github.com/ChemaKing13/Mailer#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
